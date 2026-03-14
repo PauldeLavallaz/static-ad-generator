@@ -1,0 +1,149 @@
+{
+  "brand": "SHAQ Argentina",
+  "product": "Zapatillas SHAQ HOF / 4X — Blancas/Doradas",
+  "generated_at": "2026-03-14T03:20:34.684457Z",
+  "axes": {
+    "figurita-de-leyenda": "Trading card 90s — nostalgia cultural, scroll-stopper",
+    "zapatilla-habla-sola": "Surreal product-led — sin persona, zapatilla como protagonista",
+    "revancha-del-barrio": "Emocional — el pibe excluido que ahora tiene el par de un campeón",
+    "clase-del-96": "VHS/retro 90s — el heritage de SHAQ como estética Gen Z",
+    "cuotas-de-rey": "Conversión argentina — Mercado Pago + humor local = compra"
+  },
+  "prompts": [
+    {
+      "template_number": 1,
+      "template_name": "headline",
+      "axis": "figurita-de-leyenda",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Use the attached images as brand reference. Create: a static ad designed like a 1996 NBA trading card / Panini sticker. Background: worn cardboard texture in burnt orange (#C4561A) with gold border frame. Top third: bold condensed uppercase typography in gold reading 'CLASE DEL 96. LLEGA AL BARRIO.' Below in smaller cream text: 'Las zapatillas de la leyenda. shaq.com.ar'. Bottom half: SHAQ HOF white/gold high-top sneaker standing upright on the card surface, studio lit, crisp. Bottom left corner: stylized '32' in SHAQ's jersey number style. SHAQ logo bottom right in gold. The whole image feels like the most coveted card in the álbum. 4:5 aspect ratio.",
+      "aspect_ratio": "4:5",
+      "needs_product_images": true,
+      "notes": "Eje: Figurita de leyenda. 90s trading card aesthetic. Hero template."
+    },
+    {
+      "template_number": 13,
+      "template_name": "stat-surround-hero",
+      "axis": "figurita-de-leyenda",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Use the attached images as brand reference. Create: a static ad with a deep navy (#0A1E5E) background. Center: SHAQ HOF white/gold sneaker, large, front-facing, dramatic spotlight from above. Four stat callout boxes radiating outward with gold connector lines: 'ALTURA: 2.16M', 'CAMPEONATOS: 4', 'PUNTOS: 28,596', 'ZAPATILLAS: TUS PIES'. Each stat in bold gold condensed sans-serif on dark background chips. Bottom: 'LA LEYENDA. AHORA EN TUS PIES. shaq.com.ar' in gold uppercase. The product glows. 1:1 aspect ratio.",
+      "aspect_ratio": "1:1",
+      "needs_product_images": true,
+      "notes": "Stats are Shaq's real career numbers. Last stat is the hook."
+    },
+    {
+      "template_number": 21,
+      "template_name": "bold-statement",
+      "axis": "figurita-de-leyenda",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Create: a bold statement ad with a gradient background transitioning from deep navy (#0A1E5E) top to burnt gold (#C48A00) bottom. Center: massive condensed uppercase white text '2 METROS.\n4 ANILLOS.\n1 ZAPATILLA.' in dramatic stacked layout. Below: 'SHAQ SHOES. ARGENTINA.' in smaller gold tracking. Bottom: SHAQ HOF sneaker small but impactful, white/gold catching light. The typography IS the image — powerful, commanding, impossible to scroll past. 1:1 aspect ratio.",
+      "aspect_ratio": "1:1",
+      "needs_product_images": true,
+      "notes": "Typography-dominant. Figurita axis — the stats as poetry."
+    },
+    {
+      "template_number": 35,
+      "template_name": "hero-product-stat-bar",
+      "axis": "zapatilla-habla-sola",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Use the attached images as brand reference. Create: a surreal product hero ad. Setting: a traditional Buenos Aires café notable — marble floor, dark wood, tiffany lamps — late night, dramatic side lighting. Center frame: SHAQ HOF white/gold sneaker placed on a marble café table as if it ordered an espresso. No person. The sneaker commands the scene like a regular. Bottom bar: navy band with gold text 'SHAQ HOF. PISÁ DONDE QUIERAS.' and 'shaq.com.ar'. The sneaker belongs everywhere and nowhere — that's the point. 4:5 aspect ratio.",
+      "aspect_ratio": "4:5",
+      "needs_product_images": true,
+      "notes": "Eje: La zapatilla habla sola. Unexpected BA setting. No person."
+    },
+    {
+      "template_number": 28,
+      "template_name": "feature-arrow-callout",
+      "axis": "zapatilla-habla-sola",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Use the attached images as brand reference. Create: an editorial diagram ad on off-white cream background. Center: SHAQ HOF white/gold sneaker shot at 85mm, slight 3/4 angle, perfect studio lighting. Four minimal arrow callouts pointing to specific parts: SOLE → 'Cemento o parquet: no importa', UPPER → 'Materiales que bancan cancha y calle', TONGUE → 'Logo de la leyenda', LACES → 'Tu historia empieza acá'. Typography: thin condensed sans-serif in navy, arrow lines in gold. Bottom: 'shaq.com.ar' in small navy text. Scientific diagram energy meets luxury unboxing. 1:1 aspect ratio.",
+      "aspect_ratio": "1:1",
+      "needs_product_images": true,
+      "notes": "Product annotation. Copy in Argentine Spanish idiom."
+    },
+    {
+      "template_number": 22,
+      "template_name": "flavor-story",
+      "axis": "zapatilla-habla-sola",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Create: a surreal lifestyle scene. Setting: a Buenos Aires potrero (outdoor cement basketball court) at golden hour — warm orange sky, cracked asphalt, distant villa silhouette. Foreground: SHAQ 4X white/gold sneakers placed neatly at center court as if left by someone who ascended. No person — just the sneakers and the empty court. The absence of a person IS the story. Overlay text bottom: 'EL JUEGO SIGUE. ¿VAS A ENTRAR?' in bold gold uppercase. SHAQ logo top right. 9:16 aspect ratio.",
+      "aspect_ratio": "9:16",
+      "needs_product_images": true,
+      "notes": "Existential/poetic. The absent player. Strong visual metaphor."
+    },
+    {
+      "template_number": 11,
+      "template_name": "pull-quote-review",
+      "axis": "revancha-del-barrio",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Use the attached images as brand reference. Create: a review-driven ad with a deep navy (#0A1E5E) color block background. Top half: large bold italic serif text in gold with curly quotation marks: '\"Siempre quise unas buenas zapatillas pero nunca pude.\"' Below: five gold star icons. Bottom left: white rounded review card with: gray avatar, 'Mateo R. 🇦🇷' in bold dark sans-serif, blue checkmark 'COMPRA VERIFICADA', review body: 'Las SHAQ HOF llegaron en 3 días. No puedo creer la calidad. Las pagué en 3 cuotas con Mercado Pago y son lo mejor que compré. Ya no envidio a nadie. ...Leer más' in bold navy. Bottom right: SHAQ HOF white/gold sneaker angled, standing on the color block. 1:1 aspect ratio.",
+      "aspect_ratio": "1:1",
+      "needs_product_images": true,
+      "notes": "Eje: La revancha del barrio. Real review voice + Mercado Pago mention."
+    },
+    {
+      "template_number": 3,
+      "template_name": "testimonial",
+      "axis": "revancha-del-barrio",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Use the attached images as brand reference. Create: a testimonial ad set in a Buenos Aires barrio street at magic hour — warm golden light on old apartment buildings, cracked sidewalk, a mural on the wall. SHAQ HOF white/gold sneaker on the pavement, slightly out of focus. Overlaid: large bold white condensed sans-serif 'SIEMPRE ESTUVISTE EN EL JUEGO.' Below: smaller cream text: '\"La zapatilla del pibe del barrio que se convirtió en el jugador más dominante de la historia. Ahora en Argentina.\"' — Shaq Argentina. Five filled gold stars. SHAQ logo bottom right in white. Shot on 35mm f/2.0. 9:16 aspect ratio.",
+      "aspect_ratio": "9:16",
+      "needs_product_images": true,
+      "notes": "Emocional. Street environment. Argentine barrio light."
+    },
+    {
+      "template_number": 7,
+      "template_name": "us-vs-them",
+      "axis": "revancha-del-barrio",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Use the attached images as brand reference. Create: a side-by-side comparison ad divided vertically. Left: muted gray background, header 'PAGAR EL NOMBRE' in small cold gray text, generic sneaker silhouette faded, list with red X marks: '✗ $80.000+ pesos', '✗ Pagás la publicidad ajena', '✗ Solo te alcanza si te endeudás', '✗ El mismo cemento te los rompe igual'. Right: navy (#0A1E5E) background, header 'SHAQ HOF' in bold gold, SHAQ HOF sneaker crisp and bright, list with gold checkmarks: '✓ Materiales de alto rendimiento', '✓ Suela que banca la cancha y la calle', '✓ 3 cuotas sin interés', '✓ La leyenda, sin impuesto de marca'. Center top: white circle with 'VS'. SHAQ logo bottom right. 4:5 aspect ratio.",
+      "aspect_ratio": "4:5",
+      "needs_product_images": true,
+      "notes": "Direct comparison. Argentine price reality. No brand names for competitors."
+    },
+    {
+      "template_number": 10,
+      "template_name": "press-editorial",
+      "axis": "clase-del-96",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Create: a press/editorial ad with a worn off-white paper texture background with subtle VHS scan lines. Top: 'COMO LO VIO EL MUNDO EN 1996.' in small navy uppercase wide-tracked text. Below: five grayscale publication logos (Sports Illustrated, SLAM Magazine, El Gráfico, ESPN, NBA.com) slightly faded like old newsprint. Center: italic serif pull-quote in navy: '\"El jugador más dominante que jamás pisó una cancha.\"' with attribution '— SLAM Magazine, 1996'. Lower third: SHAQ HOF white/gold sneaker at 85mm, crisp against the aged paper, the new against the old. SHAQ logo bottom left. Generous white space. The contrast between the old press and the fresh sneaker is the story. 4:5 aspect ratio.",
+      "aspect_ratio": "4:5",
+      "needs_product_images": true,
+      "notes": "Eje: Clase del 96. VHS/print texture. Archival credibility meets new product."
+    },
+    {
+      "template_number": 20,
+      "template_name": "advertorial-editorial",
+      "axis": "clase-del-96",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Create: an advertorial ad that looks like a scanned 90s basketball magazine page. Textured newsprint background, slight yellow aging. Faux article headline in bold condensed serif: 'EL PIVOTE QUE CAMBIÓ EL BÁSQUET MUNDIAL AHORA TIENE UNA ZAPATILLA PARA VOS.' Dropcap first paragraph in 90s sports magazine style: 'Corría 1996 cuando Shaquille O'Neal dominó como nadie lo había hecho. Ahora, 30 años después, su leyenda llega a los pies de los pibes argentinos.' SHAQ HOF sneaker placed as if it were a product photo in the magazine layout. Small 'PUBLICIDAD' label top right (typical of Argentine magazines). Completely fools the eye as content. 4:5 aspect ratio.",
+      "aspect_ratio": "4:5",
+      "needs_product_images": true,
+      "notes": "Eje: Clase del 96. Faux magazine article. Advertorial native format."
+    },
+    {
+      "template_number": 2,
+      "template_name": "offer-promotion",
+      "axis": "clase-del-96",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Use the attached images as brand reference. Create: a promotional ad with VHS-distorted retro aesthetic. Top 60% is deep navy (#0A1E5E) with subtle scan-line texture. Bottom 40% is burnt gold (#B8860B). SHAQ HOF white/gold sneaker sits centered where colors meet, clean studio lighting against the retro background — the contrast is intentional. Upper area: large white condensed uppercase reading 'DEL 96 AL 2026. MISMA LEYENDA.' Below: 'Zapatillas SHAQ HOF. 3 cuotas sin interés con Mercado Pago.' Lower section: small cream text 'Envío gratis a todo el país · shaq.com.ar'. SHAQ logo bottom right. 9:16 aspect ratio.",
+      "aspect_ratio": "9:16",
+      "needs_product_images": true,
+      "notes": "Retro meets conversion. VHS texture over clean product. Mercado Pago CTA."
+    },
+    {
+      "template_number": 9,
+      "template_name": "negative-marketing",
+      "axis": "cuotas-de-rey",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Use the attached images as brand reference. Create: a bait-and-switch review ad. Background: close-up of SHAQ HOF white/gold sneaker, slightly blurred. Center: white rounded-rectangle review card (MercadoLibre-style). Gray user icon, 'gonzalo_basket 🇦🇷', one gold star + four gray, orange 'Compra Verificada' badge, bold text: 'Las pedí pensando que iban a ser una cagada por el precio'. Bottom: bold white sans-serif 'SPOILER: NO LO FUERON.' SHAQ logo bottom right. The setup-punchline IS the scroll-stop. 4:5 aspect ratio.",
+      "aspect_ratio": "4:5",
+      "needs_product_images": true,
+      "notes": "Eje: Cuotas de rey. Argentine review bait-switch. Maximum scroll-stop."
+    },
+    {
+      "template_number": 37,
+      "template_name": "hero-statement-promo",
+      "axis": "cuotas-de-rey",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Use the attached images as brand reference. Create: a bold promotional ad on deep navy (#0A1E5E) background. Top: large condensed uppercase white text 'EL REY SE PAGA EN CUOTAS.' Center: SHAQ HOF white/gold sneaker large and heroic, caught in a dramatic overhead spotlight against the dark background, gleaming. Bottom: gold promotional burst/badge on lower right: '3 CUOTAS SIN INTERÉS' in bold. Below burst: 'Con Mercado Pago · Envío gratis · shaq.com.ar' in small cream text. SHAQ logo bottom left. The headline is a joke and a truth simultaneously. 1:1 aspect ratio.",
+      "aspect_ratio": "1:1",
+      "needs_product_images": true,
+      "notes": "The headline is both funny and a real offer. Argentine humor + conversion."
+    },
+    {
+      "template_number": 15,
+      "template_name": "social-comment-screenshot",
+      "axis": "cuotas-de-rey",
+      "prompt": "SHAQ Argentina visual system: bold navy blue (#0A1E5E) and championship gold (#F5A623) as primary palette. Bold condensed uppercase sans-serif typography. High-contrast street photography aesthetic — harsh Buenos Aires light, cement surfaces, authentic barrio environments. White/gold HOF or 4X sneakers as absolute visual heroes. Feel: a 90s NBA legend arriving in the Argentine barrio. Dominant, accessible, authentic. Not luxury — legacy. Warm color grade, high contrast. Create: an ad that looks like a screenshotted Instagram comment thread on a blurred navy/gold background. Main comment: circular avatar (Argentine flag emoji), username 'pibe.basket.caba', blue verified tick, comment text: '¿cuánto salieron? 😭' — Reply indented: avatar of SHAQ logo, username 'shaqargentina', blue verified tick: '3 cuotas sin interés con Mercado Pago 👑 Link en bio' — Like count: '14,287 ❤️'. Below the screenshot: SHAQ HOF white/gold sneaker small but crisp. Bottom caption: 'La respuesta que esperabas. shaq.com.ar' The comment IS the CTA. 1:1 aspect ratio.",
+      "aspect_ratio": "1:1",
+      "needs_product_images": false,
+      "notes": "Faux Instagram comment. The price objection handled in the creative itself."
+    }
+  ]
+}
