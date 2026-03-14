@@ -33,7 +33,7 @@ except ImportError:
 # Configuration
 # ---------------------------------------------------------------------------
 
-FAL_KEY = os.environ.get("FAL_KEY", "")
+FAL_KEY = os.environ.get("FAL_KEY", "34eb4ef2-4dfa-4069-b1f0-d0b4057bc2ae:0cd529c6f20f0068eade48e2275e1812")
 FAL_QUEUE_URL = "https://queue.fal.run"
 FAL_UPLOAD_URL = "https://fal.run/fal-ai/file-storage/upload"
 T2I_ENDPOINT = "fal-ai/nano-banana-2"
@@ -91,7 +91,9 @@ def submit_generation(endpoint: str, payload: dict) -> str:
 
 def poll_status(endpoint: str, request_id: str) -> dict:
     """Poll until the request is completed. Returns the result."""
-    url = f"{FAL_QUEUE_URL}/{endpoint}/requests/{request_id}/status"
+    # FAL queue always uses the base model path for status/result (not /edit sub-path)
+    base_endpoint = endpoint.split("/edit")[0] if "/edit" in endpoint else endpoint
+    url = f"{FAL_QUEUE_URL}/{base_endpoint}/requests/{request_id}/status"
     elapsed = 0
 
     while elapsed < MAX_POLL_TIME:
@@ -101,8 +103,8 @@ def poll_status(endpoint: str, request_id: str) -> dict:
         status = status_data.get("status", "")
 
         if status == "COMPLETED":
-            # Fetch the actual result
-            result_url = f"{FAL_QUEUE_URL}/{endpoint}/requests/{request_id}"
+            # Use response_url from status if available, else build it
+            result_url = status_data.get("response_url") or f"{FAL_QUEUE_URL}/{base_endpoint}/requests/{request_id}"
             result_resp = requests.get(result_url, headers=fal_headers())
             result_resp.raise_for_status()
             return result_resp.json()
